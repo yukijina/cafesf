@@ -10,11 +10,16 @@ body {
 
 /* header */
 header {
-  background-image: linear-gradient(rgba(50, 41, 32, 0.80), rgba(52, 52, 55, 0.8)), url("https://www.rover.com/blog/wp-content/uploads/2016/09/dog-in-latte-920x540.jpg");
+  background-image: linear-gradient(rgba(5, 27, 120, 0.8), rgba(7, 165, 223, 0.8)), url("https://inhabitat.com/wp-content/blogs.dir/1/files/2014/09/Sightglass-Coffee-20th-Street-Boor-Bridges-Architecture.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 90vh;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+
+header h1 {
+  padding-top: 10%;
 }
 
 .icon {

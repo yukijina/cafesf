@@ -1,7 +1,7 @@
-
+//Object constructor
 var cafes = []
 
-//contructor function
+//constructor function
 function Cafe (name, link, description, location, image, array) {
   this.name = name
   this.link = link
@@ -44,13 +44,13 @@ function populateHTML(object) {
   image.setAttribute('style', 'max-width: 100%; border-radius: 8px; margin: 3% 0')
 
   //doesn't work
-  // myH2.addEventListener("mouseover", function(event) {
-  //   event.target.style.Color = "#fff";
-  //
-  //   setTimeout(function() {
-  //     event.target.style.backgroundColor = "";
-  //   }, 500);
-  // }, false);
+  image.addEventListener("mouseover", function(event) {
+    event.target.style.opacity = "0.7";
+
+    setTimeout(function() {
+      event.target.style.opacity = "";
+    }, 500);
+  });
 
 
   myH2.textContent = object.name
