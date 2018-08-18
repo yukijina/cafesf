@@ -37,11 +37,15 @@ function populateHTML(object) {
   myDiv.className = 'col-4 m-3 mx-auto'
   image.cassName = 'img-fluid'
   a.className = 'btn btn-outline-info'
+  a.setAttribute('target', '_blank')
   myDiv.setAttribute('style','')
   myH2.setAttribute('style', 'text-align: center')
   myH5.setAttribute('style', 'margin-bottom: 1rem;; font-size: 1.1rem; font-weight: 300; text-align: left')
   myP1.setAttribute('style', 'font-weight: 300')
   image.setAttribute('style', 'max-width: 100%; border-radius: 8px; margin: 3% 0')
+
+
+//need to add target="_blank" to image
 
   //doesn't work
   image.addEventListener("mouseover", function(event) {
