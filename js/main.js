@@ -34,13 +34,13 @@ function populateHTML(object) {
   myDiv.appendChild(myP1)
   myDiv.appendChild(a)
 
-  myDiv.className = 'col-4 m-3 mx-auto'
+  myDiv.className = 'myDiv col-sm-4 col-12 m-3 mx-auto'
   image.cassName = 'img-fluid'
   a.className = 'btn btn-outline-info'
   a.setAttribute('target', '_blank')
   myDiv.setAttribute('style','')
-  myH2.setAttribute('style', 'text-align: center')
-  myH5.setAttribute('style', 'margin-bottom: 1rem;; font-size: 1.1rem; font-weight: 300; text-align: left')
+  myH2.setAttribute('style', 'text-align: center; color: #222323')
+  myH5.setAttribute('style', 'margin-bottom: 1rem; font-size: 1.1rem; font-weight: 300; text-align: left')
   myP1.setAttribute('style', 'font-weight: 300')
   image.setAttribute('style', 'max-width: 100%; border-radius: 8px; margin: 3% 0')
 
@@ -70,7 +70,7 @@ function populateHTML(object) {
 }
 
 
-new Cafe('Blue Bottle', 'https://bluebottlecoffee.com/', 'Traendy cafe chain offering upscale coffee & pastries, plus beans & brewing', '66 Mint St, San Francisco, CA 94103', 'https://dx6iy6yk2x0g.cloudfront.net/images/814/648/8146488ba8daad1dcf521c91f78e0913ab63cb4a-x425.jpg?compressionQuality=80&id=51232fbb6747df1368000009&op=scale&version=1',cafes);
+new Cafe('Blue Bottle Coffee', 'https://bluebottlecoffee.com/', 'Traendy cafe chain offering upscale coffee & pastries, plus beans & brewing', '66 Mint St, San Francisco, CA 94103', 'https://dx6iy6yk2x0g.cloudfront.net/images/814/648/8146488ba8daad1dcf521c91f78e0913ab63cb4a-x425.jpg?compressionQuality=80&id=51232fbb6747df1368000009&op=scale&version=1',cafes);
 new Cafe('Sightglass Coffee', 'https://sightglasscoffee.com/', 'Coffee made from house-roasted beans served along with baked goods', '270 7th St, San Francisco, CA 94103','https://c1.staticflickr.com/8/7306/27144567523_655595913c_c.jpg', cafes);
 new Cafe('Saint Frank Coffee', 'https://www.saintfrankcoffee.com/', 'Sunny, bi-level neighborhood coffeehouse pairing its java with pastries in airy.', '2340 Polk St, San Francisco, CA 94109', 'https://archinect.imgix.net/uploads/6v/6v77f777cy38n5ob.jpg?auto=compress%2Cformat', cafes);
 new Cafe('Four Barrel Coffee', 'https://www.fourbarrelcoffee.com/', 'Exposed beams create a sleek & rustic ambiance, specializing in drip coffee.', '375 Valencia St, San Francisco, CA 94103', 'https://cdn.vox-cdn.com/thumbor/qA8o7nhWCIkUGU8B-eEZdb3kxL4=/0x0:1000x666/1200x800/filters:focal(420x253:580x413)/cdn.vox-cdn.com/uploads/chorus_image/image/58233335/o.0.jpg', cafes);
